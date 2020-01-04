@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p11_maxArea();
+    return test_p14_longestCommonPrefix();
 }
