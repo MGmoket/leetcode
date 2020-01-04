@@ -39,6 +39,9 @@
     <ClCompile Include="p4.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="p11.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestInterfaces.h">

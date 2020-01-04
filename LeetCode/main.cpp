@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p4_findMedianSortedArrays();
+    return test_p11_maxArea();
 }

@@ -37,12 +37,12 @@ namespace p4 {
     class Solution {
     public:
         double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-            int pos1 = 0;
-            int pos2 = 0;
-            int total = nums1.size() + nums2.size();
+            size_t pos1 = 0;
+            size_t pos2 = 0;
+            size_t total = nums1.size() + nums2.size();
 
-            int remain = total / 2;
-            while (int mid = (remain / 2))
+            size_t remain = total / 2;
+            while (size_t mid = (remain / 2))
             {
                 if (pos1 + mid > nums1.size()) {
                     pos2 += mid;
