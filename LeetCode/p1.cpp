@@ -45,7 +45,7 @@ public:
 }
 
 
-int test_p1() {
+int test_p1_twoSum() {
 
     vector<int> nums = { 2,7,11,15 };
     vector<int> result = p1::Solution().twoSum(nums, 9);

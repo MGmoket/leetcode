@@ -141,6 +141,9 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="myprint" />
     <ClCompile Include="p1.cpp" />
+    <ClCompile Include="p2.cpp" />
+    <ClCompile Include="p4.cpp" />
+    <ClCompile Include="p445.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestInterfaces.h" />

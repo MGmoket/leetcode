@@ -30,6 +30,15 @@
     <ClCompile Include="myprint">
       <Filter>utility</Filter>
     </ClCompile>
+    <ClCompile Include="p2.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="p445.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="p4.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestInterfaces.h">
