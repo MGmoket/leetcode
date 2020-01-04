@@ -1,0 +1,12 @@
+
+#include <iostream>
+
+template<class _InIt>
+void println(_InIt first, _InIt last, const std::string& prefix="[", const std::string& spliter=",", const std::string& suffix="]") {
+    std::cout << prefix;
+    for (auto it = first; it != last; ++it) {
+        if ( it != first ) std::cout << spliter;
+        std::cout << *it;
+    }
+    std::cout << suffix << std::endl;
+}

@@ -1,6 +1,7 @@
 
+#include "TestInterfaces.h"
 
 int main()
 {
-    return 0;
+    return test_p1();
 }
