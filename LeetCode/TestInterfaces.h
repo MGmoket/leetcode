@@ -6,5 +6,6 @@ int test_p445_addTwoNumbers();
 int test_p4_findMedianSortedArrays();
 int test_p11_maxArea();
 int test_p14_longestCommonPrefix();
+int test_p15_threeSum();
 
 

@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p14_longestCommonPrefix();
+    return test_p15_threeSum();
 }
