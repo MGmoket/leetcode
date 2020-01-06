@@ -7,5 +7,6 @@ int test_p4_findMedianSortedArrays();
 int test_p11_maxArea();
 int test_p14_longestCommonPrefix();
 int test_p15_threeSum();
+int test_p16_threeSumClosest();
 
 

@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p15_threeSum();
+    return test_p16_threeSumClosest();
 }
