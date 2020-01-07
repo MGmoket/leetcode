@@ -147,6 +147,7 @@
     <ClCompile Include="p16.cpp" />
     <ClCompile Include="p2.cpp" />
     <ClCompile Include="p20.cpp" />
+    <ClCompile Include="p21.cpp" />
     <ClCompile Include="p4.cpp" />
     <ClCompile Include="p445.cpp" />
   </ItemGroup>

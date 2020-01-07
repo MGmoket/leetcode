@@ -9,4 +9,6 @@ int test_p14_longestCommonPrefix();
 int test_p15_threeSum();
 int test_p16_threeSumClosest();
 int test_p20_isValid();
+int test_p21_mergeTowLists();
+
 
