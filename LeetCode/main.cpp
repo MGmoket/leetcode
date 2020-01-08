@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p23_mergeKLists();
+    return test_p26_removeDuplicates();
 }
