@@ -138,6 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="functions.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="myprint" />
     <ClCompile Include="p1.cpp" />
@@ -148,10 +149,12 @@
     <ClCompile Include="p2.cpp" />
     <ClCompile Include="p20.cpp" />
     <ClCompile Include="p21.cpp" />
+    <ClCompile Include="p23.cpp" />
     <ClCompile Include="p4.cpp" />
     <ClCompile Include="p445.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="functions.h" />
     <ClInclude Include="TestInterfaces.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

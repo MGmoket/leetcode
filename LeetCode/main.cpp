@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p21_mergeTowLists();
+    return test_p23_mergeKLists();
 }

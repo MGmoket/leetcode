@@ -57,9 +57,18 @@
     <ClCompile Include="p21.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="p23.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestInterfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
