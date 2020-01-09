@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p26_removeDuplicates();
+    return test_p33_search();
 }

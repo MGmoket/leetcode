@@ -12,5 +12,6 @@ int test_p20_isValid();
 int test_p21_mergeTowLists();
 int test_p23_mergeKLists();
 int test_p26_removeDuplicates();
+int test_p33_search();
 
 
