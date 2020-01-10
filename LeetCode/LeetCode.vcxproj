@@ -143,6 +143,7 @@
     <ClCompile Include="myprint" />
     <ClCompile Include="p1.cpp" />
     <ClCompile Include="p11.cpp" />
+    <ClCompile Include="p1310.cpp" />
     <ClCompile Include="p14.cpp" />
     <ClCompile Include="p15.cpp" />
     <ClCompile Include="p16.cpp" />
@@ -153,6 +154,7 @@
     <ClCompile Include="p26.cpp" />
     <ClCompile Include="p33.cpp" />
     <ClCompile Include="p4.cpp" />
+    <ClCompile Include="p43.cpp" />
     <ClCompile Include="p445.cpp" />
   </ItemGroup>
   <ItemGroup>

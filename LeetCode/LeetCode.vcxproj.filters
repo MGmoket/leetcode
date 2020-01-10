@@ -69,6 +69,12 @@
     <ClCompile Include="p33.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="p1310.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="p43.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestInterfaces.h">
