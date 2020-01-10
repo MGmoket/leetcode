@@ -13,5 +13,6 @@ int test_p21_mergeTowLists();
 int test_p23_mergeKLists();
 int test_p26_removeDuplicates();
 int test_p33_search();
+int test_p1310_xorQueries();
 
 

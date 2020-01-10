@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p33_search();
+    return test_p1310_xorQueries();
 }
