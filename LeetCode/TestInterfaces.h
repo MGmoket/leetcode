@@ -15,5 +15,6 @@ int test_p26_removeDuplicates();
 int test_p33_search();
 int test_p1310_xorQueries();
 int test_p43_multiply();
+int test_p46_permute();
 
 

@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p43_multiply();
+    return test_p46_permute();
 }

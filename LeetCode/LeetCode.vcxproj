@@ -156,6 +156,7 @@
     <ClCompile Include="p4.cpp" />
     <ClCompile Include="p43.cpp" />
     <ClCompile Include="p445.cpp" />
+    <ClCompile Include="p46.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h" />

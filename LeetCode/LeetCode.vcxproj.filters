@@ -75,6 +75,9 @@
     <ClCompile Include="p43.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="p46.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestInterfaces.h">
