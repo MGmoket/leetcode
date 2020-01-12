@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p46_permute();
+    return test_p5307_getNoZeroIntegers();
 }
