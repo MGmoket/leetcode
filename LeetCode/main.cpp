@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p5307_getNoZeroIntegers();
+    return test_p53_maxSubArray();
 }

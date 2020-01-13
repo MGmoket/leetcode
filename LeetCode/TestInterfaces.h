@@ -17,5 +17,6 @@ int test_p1310_xorQueries();
 int test_p43_multiply();
 int test_p46_permute();
 int test_p5307_getNoZeroIntegers();
+int test_p53_maxSubArray();
 
 
