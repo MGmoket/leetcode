@@ -54,7 +54,7 @@ int test_p53_maxSubArray() {
 
     nums = { -2,1,-3,4,-1,2,1,-5,4 };
     println(nums.begin(), nums.end());
-    cout << Solution2().maxSubArray(nums) << endl;
+    cout << Solution().maxSubArray(nums) << endl;
 
     return 0;
 }
