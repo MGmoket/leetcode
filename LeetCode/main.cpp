@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p54_spiralOrder();
+    return test_p59_generateMatrix();
 }
