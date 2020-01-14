@@ -90,6 +90,9 @@
     <ClCompile Include="p59.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="p61.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestInterfaces.h">
