@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p61_rotateRight();
+    return test_p62_uniquePaths();
 }

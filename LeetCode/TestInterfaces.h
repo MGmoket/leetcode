@@ -21,4 +21,5 @@ int test_p53_maxSubArray();
 int test_p54_spiralOrder();
 int test_p59_generateMatrix();
 int test_p61_rotateRight();
+int test_p62_uniquePaths();
 
