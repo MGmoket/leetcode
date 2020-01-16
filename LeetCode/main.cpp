@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p62_uniquePaths();
+    return test_p70_climbStairs();
 }
