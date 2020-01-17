@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p70_climbStairs();
+    return test_p78_subsets();
 }
