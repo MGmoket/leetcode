@@ -28,4 +28,5 @@ int test_p88_merge();
 int test_p104_maxDepth();
 int test_p121_maxProfit();
 int test_p122_maxProfit();
+int test_p136_singleNumber();
 
