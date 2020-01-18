@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p78_subsets();
+    return test_p88_merge();
 }
