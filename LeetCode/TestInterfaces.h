@@ -25,4 +25,5 @@ int test_p62_uniquePaths();
 int test_p70_climbStairs();
 int test_p78_subsets();
 int test_p88_merge();
+int test_p104_maxDepth();
 

@@ -9,6 +9,14 @@ ListNode* next;
 ListNode(int x) : val(x), next(NULL) {}
 };
 
-ListNode* makeList(std::vector<int> nums);
+struct TreeNode {
+    int val;
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode(int x) :val(x), left(NULL), right(NULL) {}
+};
+
+ListNode* makeList(const std::vector<int>& nums);
 void printList(ListNode* l);
 
+TreeNode* makeBinaryTree(const std::vector<int>& nums);

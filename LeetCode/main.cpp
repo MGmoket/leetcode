@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p88_merge();
+    return test_p104_maxDepth();
 }
