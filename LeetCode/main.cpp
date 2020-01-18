@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p104_maxDepth();
+    return test_p121_maxProfit();
 }
