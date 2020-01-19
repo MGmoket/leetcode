@@ -29,4 +29,4 @@ int test_p104_maxDepth();
 int test_p121_maxProfit();
 int test_p122_maxProfit();
 int test_p136_singleNumber();
-
+int test_p141_hasCycle();

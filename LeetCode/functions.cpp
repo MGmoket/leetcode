@@ -16,6 +16,24 @@ ListNode* makeList(const vector<int>& nums) {
     return l;
 }
 
+ListNode* makeCycleList(const std::vector<int>& nums, int pos) {
+    if (nums.size() == 0) return NULL;
+
+    ListNode* l = new ListNode(nums.front());
+    ListNode* p = l;
+    ListNode* cycle = NULL;
+    if (pos == 0) cycle = l;
+    for (size_t i = 1; i < nums.size(); ++i) {
+        p->next = new ListNode(nums[i]);
+        p = p->next;
+        if (pos == i) cycle = p;
+    }
+    p->next = cycle;
+
+    return l;
+}
+
+
 void printList(ListNode* l) {
     ListNode* p = l;
     while (p != NULL) {

@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p136_singleNumber();
+    return test_p141_hasCycle();
 }

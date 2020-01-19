@@ -17,6 +17,7 @@ struct TreeNode {
 };
 
 ListNode* makeList(const std::vector<int>& nums);
+ListNode* makeCycleList(const std::vector<int>& nums, int pos);
 void printList(ListNode* l);
 
 TreeNode* makeBinaryTree(const std::vector<int>& nums);
