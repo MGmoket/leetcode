@@ -30,3 +30,4 @@ int test_p121_maxProfit();
 int test_p122_maxProfit();
 int test_p136_singleNumber();
 int test_p141_hasCycle();
+int test_p142_detectCycle();
