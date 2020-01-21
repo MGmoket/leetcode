@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p142_detectCycle();
+    return test_p160_getIntersectionNode();
 }

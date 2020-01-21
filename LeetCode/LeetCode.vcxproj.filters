@@ -105,9 +105,6 @@
     <ClCompile Include="p88.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
-    <ClCompile Include="p104.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="p121.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
@@ -121,6 +118,15 @@
       <Filter>Problems</Filter>
     </ClCompile>
     <ClCompile Include="p142.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="p155.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="p104.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="p160.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
   </ItemGroup>
