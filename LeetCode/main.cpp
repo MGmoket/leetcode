@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p160_getIntersectionNode();
+    return test_p169_majorityElement();
 }

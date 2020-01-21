@@ -155,6 +155,7 @@
     <ClCompile Include="p155.cpp" />
     <ClCompile Include="p16.cpp" />
     <ClCompile Include="p160.cpp" />
+    <ClCompile Include="p169.cpp" />
     <ClCompile Include="p2.cpp" />
     <ClCompile Include="p20.cpp" />
     <ClCompile Include="p21.cpp" />
