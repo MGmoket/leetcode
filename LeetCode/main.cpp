@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p169_majorityElement();
+    return test_p206_reverseList();
 }
