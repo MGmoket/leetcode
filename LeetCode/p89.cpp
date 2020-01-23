@@ -41,7 +41,7 @@ Explanation: We define the gray code sequence to begin with 0.
 using namespace std;
 
 namespace p89 {
-    class Solution {
+    class Solution2 {
     public:
         vector<int> grayCode(int n) {
             if (n == 0) return {0};
@@ -55,12 +55,14 @@ namespace p89 {
         }
     };
 
-    class Solution2 {//更精彩的解法
+    class Solution {//更精彩的解法
     public:
         vector<int> grayCode(int n) {
             vector<int> res;
+            res.resize(pow(2, n));
             for (int i = 0; i < pow(2, n); i++) {
-                res.push_back((i >> 1) ^ i);
+                //res.push_back((i >> 1) ^ i);
+                res[i] = (i >> 1) ^ i;
             }
             return res;
         }
