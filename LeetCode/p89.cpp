@@ -54,6 +54,17 @@ namespace p89 {
             return result;
         }
     };
+
+    class Solution2 {//更精彩的解法
+    public:
+        vector<int> grayCode(int n) {
+            vector<int> res;
+            for (int i = 0; i < pow(2, n); i++) {
+                res.push_back((i >> 1) ^ i);
+            }
+            return res;
+        }
+    };
 }
 
 int test_p89_grayCode() {
