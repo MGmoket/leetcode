@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p217_containsDuplicate();
+    return test_p231_isPowerOfTwo();
 }
