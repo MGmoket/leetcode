@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p89_grayCode();
+    return test_p217_containsDuplicate();
 }
