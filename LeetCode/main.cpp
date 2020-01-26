@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p231_isPowerOfTwo();
+    return test_p292_canWinNim();
 }

@@ -37,4 +37,5 @@ int test_p206_reverseList();
 int test_p89_grayCode();
 int test_p217_containsDuplicate();
 int test_p231_isPowerOfTwo();
+int test_p292_canWinNim();
 
