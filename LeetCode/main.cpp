@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p292_canWinNim();
+    return test_p344_reverseString();
 }
