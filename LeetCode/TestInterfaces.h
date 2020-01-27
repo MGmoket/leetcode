@@ -39,4 +39,5 @@ int test_p217_containsDuplicate();
 int test_p231_isPowerOfTwo();
 int test_p292_canWinNim();
 int test_p344_reverseString();
+int test_p557_reverseWords();
 
