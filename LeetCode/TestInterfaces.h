@@ -41,4 +41,5 @@ int test_p292_canWinNim();
 int test_p344_reverseString();
 int test_p557_reverseWords();
 int test_p148_sortList();
+int test_p215_findKthLargest();
 
