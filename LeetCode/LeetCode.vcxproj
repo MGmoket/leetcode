@@ -152,6 +152,7 @@
     <ClCompile Include="p141.cpp" />
     <ClCompile Include="p142.cpp" />
     <ClCompile Include="p146.cpp" />
+    <ClCompile Include="p148.cpp" />
     <ClCompile Include="p15.cpp" />
     <ClCompile Include="p155.cpp" />
     <ClCompile Include="p16.cpp" />
