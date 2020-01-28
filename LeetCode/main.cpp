@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p215_findKthLargest();
+    return test_p230_kthSmallest();
 }
