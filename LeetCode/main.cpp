@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p230_kthSmallest();
+    return test_p236_lowestCommonAncestor();
 }

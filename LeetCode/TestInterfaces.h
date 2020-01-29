@@ -43,4 +43,5 @@ int test_p557_reverseWords();
 int test_p148_sortList();
 int test_p215_findKthLargest();
 int test_p230_kthSmallest();
+int test_p236_lowestCommonAncestor();
 
