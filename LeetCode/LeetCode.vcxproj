@@ -146,6 +146,7 @@
     <ClCompile Include="p11.cpp" />
     <ClCompile Include="p121.cpp" />
     <ClCompile Include="p122.cpp" />
+    <ClCompile Include="p124.cpp" />
     <ClCompile Include="p1310.cpp" />
     <ClCompile Include="p136.cpp" />
     <ClCompile Include="p14.cpp" />
