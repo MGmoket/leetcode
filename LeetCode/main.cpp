@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p236_lowestCommonAncestor();
+    return test_p238_productExceptSelf();
 }
