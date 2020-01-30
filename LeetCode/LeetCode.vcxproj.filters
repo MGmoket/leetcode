@@ -183,6 +183,9 @@
     <ClCompile Include="p152.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="p198.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestInterfaces.h">

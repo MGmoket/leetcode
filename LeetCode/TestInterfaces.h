@@ -47,4 +47,5 @@ int test_p236_lowestCommonAncestor();
 int test_p238_productExceptSelf();
 int test_p124_maxPathSum();
 int test_p152_maxProduct();
+int test_p198_rob();
 

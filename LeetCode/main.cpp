@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p152_maxProduct();
+    return test_p198_rob();
 }
