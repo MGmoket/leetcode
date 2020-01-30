@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p124_maxPathSum();
+    return test_p152_maxProduct();
 }
