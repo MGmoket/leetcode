@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p198_rob();
+    return test_p234_isPalindrome();
 }
