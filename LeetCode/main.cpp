@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p283_moveZeroes();
+    return test_p437_pathSum();
 }

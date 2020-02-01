@@ -50,4 +50,5 @@ int test_p152_maxProduct();
 int test_p198_rob();
 int test_p234_isPalindrome();
 int test_p283_moveZeroes();
+int test_p437_pathSum();
 
