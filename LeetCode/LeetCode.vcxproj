@@ -188,6 +188,7 @@
     <ClCompile Include="p46.cpp" />
     <ClCompile Include="p53.cpp" />
     <ClCompile Include="p5307.cpp" />
+    <ClCompile Include="p538.cpp" />
     <ClCompile Include="p54.cpp" />
     <ClCompile Include="p557.cpp" />
     <ClCompile Include="p59.cpp" />
