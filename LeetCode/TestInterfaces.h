@@ -52,4 +52,5 @@ int test_p234_isPalindrome();
 int test_p283_moveZeroes();
 int test_p437_pathSum();
 int test_p581_findUnsortedSubarray();
+int test_p101_isSymmetric();
 

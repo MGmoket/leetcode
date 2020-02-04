@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p581_findUnsortedSubarray();
+    return test_p101_isSymmetric();
 }
