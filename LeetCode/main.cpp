@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p101_isSymmetric();
+    return test_p448_findDisappearedNumbers();
 }
