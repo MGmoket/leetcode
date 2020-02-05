@@ -27,37 +27,56 @@ using namespace std;
 
 namespace p448 {
 
-}
+    class Solution2 {
+    public:
+        vector<int> findDisappearedNumbers(vector<int>& nums) {
+            sort(nums.begin(), nums.end());
 
-class Solution {
-public:
-    vector<int> findDisappearedNumbers(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
-
-        vector<int> output;
-        int pre = 0;
-        int i = 0;
-        while (i < nums.size())
-        {
-            while (nums[i] == pre) {
+            vector<int> output;
+            int pre = 0;
+            int i = 0;
+            while (i < nums.size())
+            {
+                while (nums[i] == pre) {
+                    ++i;
+                }
+                if (nums[i] - pre > 1) {
+                    for (int j = pre + 1; j < nums[i]; ++j) {
+                        output.push_back(j);
+                    }
+                }
+                pre = nums[i];
                 ++i;
             }
-            if (nums[i] - pre > 1) {
-                for (int j = pre + 1; j < nums[i]; ++j) {
-                    output.push_back(j);
-                }
+
+            for (i = pre + 1; i < nums.size() + 1; ++i) {
+                output.push_back(i);
             }
-            pre = nums[i];
-            ++i;
-        }
 
-        for (i = pre + 1; i < nums.size() + 1; ++i) {
-            output.push_back(i);
+            return output;
         }
+    };
 
-        return output;
-    }
-};
+    class Solution {
+    public:
+        vector<int> findDisappearedNumbers(vector<int>& nums) {
+            vector<int> res;
+            if (nums.empty()) return nums;
+            for (int i = 0; i < nums.size(); i++)
+            {
+                int index = (nums[i] - 1) % nums.size();
+                nums[index] += nums.size();
+            }
+            for (int i = 0; i < nums.size(); i++)
+            {
+                if (nums[i] <= nums.size())
+                    res.push_back(i + 1);
+            }
+            return res;
+        }
+    };
+}
+
 
 int test_p448_findDisappearedNumbers() {
     using namespace p448;
