@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p448_findDisappearedNumbers();
+    return test_p461_hammingDistance();
 }
