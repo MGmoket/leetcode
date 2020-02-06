@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p461_hammingDistance();
+    return test_p3_lengthOfLongestSubstring();
 }

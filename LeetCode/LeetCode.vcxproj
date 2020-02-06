@@ -180,6 +180,7 @@
     <ClCompile Include="p26.cpp" />
     <ClCompile Include="p283.cpp" />
     <ClCompile Include="p292.cpp" />
+    <ClCompile Include="p3.cpp" />
     <ClCompile Include="p33.cpp" />
     <ClCompile Include="p344.cpp" />
     <ClCompile Include="p4.cpp" />
