@@ -33,31 +33,49 @@ using namespace std;
 
 namespace p3 {
 
-}
+    class Solution2 {
+    public:
+        int lengthOfLongestSubstring(string s) {
+            size_t maxLen = 0;
 
-class Solution {
-public:
-    int lengthOfLongestSubstring(string s) {
-        size_t maxLen = 0;
+            int j = 0;
 
-        int j = 0;
+            vector<char> p;
 
-        vector<char> p;
-
-        while (j < s.length()) {
-            char ch = s.at(j);
-            auto finder = find(p.begin(), p.end(), ch);
-            if (finder != p.end()) {
-                maxLen = max(maxLen, p.size());
-                p.erase(p.begin(), ++finder);
+            while (j < s.length()) {
+                char ch = s.at(j);
+                auto finder = find(p.begin(), p.end(), ch);
+                if (finder != p.end()) {
+                    maxLen = max(maxLen, p.size());
+                    p.erase(p.begin(), ++finder);
+                }
+                p.push_back(ch);
+                ++j;
             }
-            p.push_back(ch);
-            ++j;
-        }
 
-        return max(maxLen, p.size());
-    }
-};
+            return max(maxLen, p.size());
+        }
+    };
+
+    class Solution {
+    public:
+        int lengthOfLongestSubstring(string s) {
+            vector<int> m(128, -1);
+
+            int res = 0;
+            int left = -1;
+
+            for (int i = 0; i < s.size(); i++) {
+                left = max(left, m[s[i]]);
+                m[s[i]] = i;
+                res = max(res, i - left);
+            }
+
+            return res;
+        }
+    };
+
+}
 
 int test_p3_lengthOfLongestSubstring() {
     using namespace p3;
