@@ -56,4 +56,5 @@ int test_p101_isSymmetric();
 int test_p448_findDisappearedNumbers();
 int test_p461_hammingDistance();
 int test_p3_lengthOfLongestSubstring();
+int test_p10_isMatch();
 
