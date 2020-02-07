@@ -56,7 +56,94 @@ Output: false
 using namespace std;
 
 namespace p10 {
+
     class Solution {
+    public:
+        bool isMatch(string s, string p) {
+            int len1 = s.length(), len2 = p.length();
+            bool* dp = new bool[len2 + 1]{};
+            dp[0] = true;
+            for (int j = 2; j <= len2; j++)
+                dp[j] = dp[j - 2] && p[j - 1] == '*';
+            for (int i = 1; i <= len1; i++)
+            {
+                bool t = dp[0];
+                dp[0] = false;
+                for (int j = 1; j <= len2; j++)
+                {
+                    bool temp = dp[j];
+                    if (p[j - 1] == '.')
+                        dp[j] = t;
+                    else if (p[j - 1] == '*')
+                    {
+                        if (p[j - 2] == '.')
+                            dp[j] = dp[j - 2] || dp[j];
+                        else
+                            dp[j] = dp[j - 2] || (dp[j] && p[j - 2] == s[i - 1]);
+                    }
+                    else
+                        dp[j] = t && p[j - 1] == s[i - 1];
+                    t = temp;
+                }
+            }
+            bool ret = dp[len2];
+            delete[]dp;
+            return ret;
+        }
+    };
+
+    class Solution1 {
+    public:
+        bool isMatch(string s, string p) {
+            vector<vector<bool>> dp(s.length() + 1);
+            for (auto& b : dp) {
+                b.resize(p.length() + 1);
+            }
+
+
+            dp[0][0] = true;
+            for (int i = 0; i < p.length(); i++) {
+                if (p[i] == '*' && dp[0][i - 1]) {
+                    dp[0][i + 1] = true;
+                }
+                else {
+                    dp[0][i + 1] = false;
+                }
+            }
+            if (s.length() >= 1) {
+                for (int i = 1; i < s.length() + 1; i++) {
+                    dp[i][0] = false;
+                }
+            }
+            for (int i = 0; i < s.length(); i++) {
+                for (int j = 0; j < p.length(); j++) {
+                    if (s[i] == p[j] || p[j] == '.') {
+                        dp[i + 1][j + 1] = dp[i][j];
+                    }
+                    else if (p[j] == '*') {
+                        if (p[j - 1] != s[i] && p[j - 1] != '.') {
+                            dp[i + 1][j + 1] = dp[i + 1][j - 1];
+                        }
+                        else {
+                            if (dp[i][j + 1] || dp[i + 1][j] || dp[i + 1][j - 1]) {
+                                dp[i + 1][j + 1] = true;
+                            }
+                            else {
+                                dp[i + 1][j + 1] = false;
+                            }
+                        }
+                    }
+                    else {
+                        dp[i + 1][j + 1] = false;
+                    }
+                }
+            }
+            return dp[s.length()][p.length()];
+        }
+    };
+
+
+    class Solution0 { // failed
     public:
         bool isMatch(string s, string p) {
             
