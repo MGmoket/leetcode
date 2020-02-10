@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{C04733FF-56FF-4A42-9308-3DE1CE5825CE}</ProjectGuid>
     <RootNamespace>LeetCode</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -183,6 +183,7 @@
     <ClCompile Include="p283.cpp" />
     <ClCompile Include="p292.cpp" />
     <ClCompile Include="p3.cpp" />
+    <ClCompile Include="p31.cpp" />
     <ClCompile Include="p33.cpp" />
     <ClCompile Include="p344.cpp" />
     <ClCompile Include="p4.cpp" />
