@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p17_letterCombinations();
+    return test_p34_searchRange();
 }
