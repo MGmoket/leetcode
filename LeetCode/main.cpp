@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p34_searchRange();
+    return test_p48_rotate();
 }

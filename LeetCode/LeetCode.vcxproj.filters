@@ -237,6 +237,12 @@
     <ClCompile Include="p34.cpp">
       <Filter>Problems</Filter>
     </ClCompile>
+    <ClCompile Include="p39.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
+    <ClCompile Include="p48.cpp">
+      <Filter>Problems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TestInterfaces.h">

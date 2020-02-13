@@ -58,4 +58,7 @@ int test_p461_hammingDistance();
 int test_p3_lengthOfLongestSubstring();
 int test_p10_isMatch();
 int test_p17_letterCombinations();
+int test_p34_searchRange();
+int test_p39_combinationSum();
+int test_p48_rotate();
 
