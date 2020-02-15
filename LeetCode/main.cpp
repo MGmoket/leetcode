@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p48_rotate();
+    return test_p49_groupAnagrams();
 }
