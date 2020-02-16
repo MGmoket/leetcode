@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p49_groupAnagrams();
+    return test_p55_canJump();
 }
