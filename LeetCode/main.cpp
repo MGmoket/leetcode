@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p55_canJump();
+    return test_p56_merge();
 }

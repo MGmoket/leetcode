@@ -63,5 +63,6 @@ int test_p39_combinationSum();
 int test_p48_rotate();
 int test_p49_groupAnagrams();
 int test_p55_canJump();
+int test_p56_merge();
 
 
