@@ -64,5 +64,6 @@ int test_p48_rotate();
 int test_p49_groupAnagrams();
 int test_p55_canJump();
 int test_p56_merge();
+int test_p64_minPathSum();
 
 
