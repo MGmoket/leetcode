@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p64_minPathSum();
+    return test_p75_sortColors();
 }
