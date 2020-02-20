@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p75_sortColors();
+    return test_p79_exist();
 }

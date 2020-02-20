@@ -66,4 +66,5 @@ int test_p55_canJump();
 int test_p56_merge();
 int test_p64_minPathSum();
 int test_p75_sortColors();
+int test_p79_exist();
 
