@@ -27,77 +27,77 @@ using namespace std;
 
 namespace p94 {
 
-}
-
-class Solution0 {
-public:
-    vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> res;
-        inorderTraversal(root, res);
-        return res;
-    }
-
-private:
-    void inorderTraversal(TreeNode* root, vector<int>& vals) {
-        if (root == NULL) return;
-        inorderTraversal(root->left, vals);
-        vals.push_back(root->val);
-        inorderTraversal(root->right, vals);
-    }
-};
-
-class Solution1 {
-public:
-    vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> res;
-        stack<TreeNode*> _stack;
-
-        TreeNode* p = root;
-        bool bStacked = false;
-        while (p != NULL) {
-            if (p->left != NULL && !bStacked) {
-                _stack.push(p);
-                p = p->left;
-                continue;
-            }
-            bStacked = false;
-            res.push_back(p->val);
-            if (p->right != NULL) {
-                p = p->right;
-                continue;
-            }
-
-            if (_stack.size() == 0) break;
-            bStacked = true;
-            p = _stack.top();
-            _stack.pop();
+    class Solution0 {
+    public:
+        vector<int> inorderTraversal(TreeNode* root) {
+            vector<int> res;
+            inorderTraversal(root, res);
+            return res;
         }
-        return res;
-    }
-};
 
+    private:
+        void inorderTraversal(TreeNode* root, vector<int>& vals) {
+            if (root == NULL) return;
+            inorderTraversal(root->left, vals);
+            vals.push_back(root->val);
+            inorderTraversal(root->right, vals);
+        }
+    };
 
-class Solution {
-public:
-    vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> res;
-        stack<TreeNode*> _stack;
+    class Solution1 {
+    public:
+        vector<int> inorderTraversal(TreeNode* root) {
+            vector<int> res;
+            stack<TreeNode*> _stack;
 
-        TreeNode* p = root;
-        while (p != NULL || !_stack.empty()) {
+            TreeNode* p = root;
+            bool bStacked = false;
             while (p != NULL) {
-                _stack.push(p);
-                p = p->left;
+                if (p->left != NULL && !bStacked) {
+                    _stack.push(p);
+                    p = p->left;
+                    continue;
+                }
+                bStacked = false;
+                res.push_back(p->val);
+                if (p->right != NULL) {
+                    p = p->right;
+                    continue;
+                }
+
+                if (_stack.size() == 0) break;
+                bStacked = true;
+                p = _stack.top();
+                _stack.pop();
             }
-
-            p = _stack.top();
-            _stack.pop();
-            res.push_back(p->val);
-            p = p->right;
+            return res;
         }
-    }
-};
+    };
 
+
+    class Solution {
+    public:
+        vector<int> inorderTraversal(TreeNode* root) {
+            vector<int> res;
+            stack<TreeNode*> _stack;
+
+            TreeNode* p = root;
+            while (p != NULL || !_stack.empty()) {
+                while (p != NULL) {
+                    _stack.push(p);
+                    p = p->left;
+                }
+
+                p = _stack.top();
+                _stack.pop();
+                res.push_back(p->val);
+                p = p->right;
+            }
+        }
+    };
+
+
+}
 
 int test_p94_inorderTraversal() {
     using namespace p94;
