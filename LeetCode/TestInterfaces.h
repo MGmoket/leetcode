@@ -68,4 +68,5 @@ int test_p64_minPathSum();
 int test_p75_sortColors();
 int test_p79_exist();
 int test_p94_inorderTraversal();
+int test_p95_numTrees();
 

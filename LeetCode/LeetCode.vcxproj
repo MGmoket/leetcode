@@ -219,6 +219,7 @@
     <ClCompile Include="p10.cpp" />
     <ClCompile Include="p55.cpp" />
     <ClCompile Include="p94.cpp" />
+    <ClCompile Include="p95.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h" />

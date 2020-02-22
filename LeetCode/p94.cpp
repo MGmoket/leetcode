@@ -93,6 +93,7 @@ namespace p94 {
                 res.push_back(p->val);
                 p = p->right;
             }
+            return res;
         }
     };
 

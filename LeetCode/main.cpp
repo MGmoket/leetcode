@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p94_inorderTraversal();
+    return test_p95_numTrees();
 }
