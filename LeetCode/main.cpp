@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p95_numTrees();
+    return test_p98_isValidBST();
 }
