@@ -70,4 +70,5 @@ int test_p79_exist();
 int test_p94_inorderTraversal();
 int test_p95_numTrees();
 int test_p98_isValidBST();
-
+int test_p102_levelOrder();
+int test_p105_buildTree();

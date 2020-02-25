@@ -143,7 +143,9 @@
     <ClCompile Include="myprint" />
     <ClCompile Include="p1.cpp" />
     <ClCompile Include="p101.cpp" />
+    <ClCompile Include="p102.cpp" />
     <ClCompile Include="p104.cpp" />
+    <ClCompile Include="p105.cpp" />
     <ClCompile Include="p11.cpp" />
     <ClCompile Include="p121.cpp" />
     <ClCompile Include="p122.cpp" />
