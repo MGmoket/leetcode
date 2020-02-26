@@ -72,3 +72,6 @@ int test_p95_numTrees();
 int test_p98_isValidBST();
 int test_p102_levelOrder();
 int test_p105_buildTree();
+int test_p114_flatten();
+
+

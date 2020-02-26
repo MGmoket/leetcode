@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p105_buildTree();
+    return test_p114_flatten();
 }
