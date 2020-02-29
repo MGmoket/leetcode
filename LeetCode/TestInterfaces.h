@@ -74,5 +74,6 @@ int test_p102_levelOrder();
 int test_p105_buildTree();
 int test_p114_flatten();
 int test_p139_wordBreak();
+int test_p225_MyStack();
 
 

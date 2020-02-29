@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p139_wordBreak();
+    return test_p225_MyStack();
 }
