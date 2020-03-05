@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p939_dailyTemperatures();
+    return test_p279_numSquares();
 }

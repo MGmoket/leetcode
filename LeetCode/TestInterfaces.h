@@ -76,4 +76,5 @@ int test_p114_flatten();
 int test_p139_wordBreak();
 int test_p225_MyStack();
 int test_p939_dailyTemperatures();
+int test_p279_numSquares();
 
