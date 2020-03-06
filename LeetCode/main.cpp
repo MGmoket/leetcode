@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p279_numSquares();
+    return test_p438_findAnagrams();
 }
