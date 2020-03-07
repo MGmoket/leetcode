@@ -78,4 +78,5 @@ int test_p225_MyStack();
 int test_p939_dailyTemperatures();
 int test_p279_numSquares();
 int test_p438_findAnagrams();
+int test_p50_myPow();
 

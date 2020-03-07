@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p438_findAnagrams();
+    return test_p50_myPow();
 }
