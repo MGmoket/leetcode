@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p50_myPow();
+    return test_p394_decodeString();
 }
