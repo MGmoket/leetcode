@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p394_decodeString();
+    return test_p18_fourSum();
 }

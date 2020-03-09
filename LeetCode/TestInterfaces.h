@@ -80,4 +80,5 @@ int test_p279_numSquares();
 int test_p438_findAnagrams();
 int test_p50_myPow();
 int test_p394_decodeString();
+int test_p18_fourSum();
 
