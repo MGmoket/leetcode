@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p18_fourSum();
+    return test_p27_removeElement();
 }

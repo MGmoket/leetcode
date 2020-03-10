@@ -81,4 +81,5 @@ int test_p438_findAnagrams();
 int test_p50_myPow();
 int test_p394_decodeString();
 int test_p18_fourSum();
+int test_p27_removeElement();
 
