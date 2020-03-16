@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p27_removeElement();
+    return test_p35_searchInsert();
 }
