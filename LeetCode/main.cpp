@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p35_searchInsert();
+    return test_p40_combinationSum2();
 }

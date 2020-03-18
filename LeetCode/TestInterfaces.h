@@ -82,4 +82,6 @@ int test_p50_myPow();
 int test_p394_decodeString();
 int test_p18_fourSum();
 int test_p27_removeElement();
+int test_p35_searchInsert();
+int test_p40_combinationSum2();
 
