@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p40_combinationSum2();
+    return test_p41_firstMissingPositive();
 }
