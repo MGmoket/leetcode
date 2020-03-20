@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p41_firstMissingPositive();
+    return test_p66_plusOne();
 }

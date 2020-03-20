@@ -85,4 +85,5 @@ int test_p27_removeElement();
 int test_p35_searchInsert();
 int test_p40_combinationSum2();
 int test_p41_firstMissingPositive();
+int test_p66_plusOne();
 
