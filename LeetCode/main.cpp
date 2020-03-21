@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p118_generate();
+    return test_p119_getRow();
 }
