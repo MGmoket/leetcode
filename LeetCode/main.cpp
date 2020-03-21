@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p66_plusOne();
+    return test_p118_generate();
 }
