@@ -88,5 +88,6 @@ int test_p41_firstMissingPositive();
 int test_p66_plusOne();
 int test_p118_generate();
 int test_p119_getRow();
+int test_p168_towSum();
 
 
