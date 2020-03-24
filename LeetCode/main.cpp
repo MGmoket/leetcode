@@ -3,5 +3,5 @@
 
 int main()
 {
-    return test_p189_rotate();
+    return test_p219_containsNearbyDuplicate();
 }
